@@ -1,0 +1,141 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: blue;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+#link-image{
+    width: 400px;
+}
+
+#my-pic{
+    width: 30px;
+}
+header {
+    background-color: blueviolet;
+    color: white;
+}
+
+header{
+    background-color: #05204b;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: large;
+    height: 25px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul > li{
+    display: inline-block;
+}
+
+nav > ul> li >a {
+text-decoration: none;
+text-align: center;
+vertical-align: middle;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 50px;
+    color: brown;
+}
+
+
+#home-link::first-letter{
+    font-size: xx-large;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-display: 50px;
+}
+
+p::after{
+    content: ">>>>";
+    color: darkred;
+}
+nav ul li :hover{
+    background-color: darkgoldenrod;
+}
+#link-image:active{
+    content: url("../img/link_transp.png")
+}
+nav ul li :focus{
+    background-color: chartreuse;
+}
+
+nav li{
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    height: 25px;
+}
+nav a {
+    color:aqua ;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+aside li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    height: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+} 
+aside ul li:focus{
+background-color: dodgerblue;
+}
+.news-page{
+    color:purple;
+}
+.news-page:hover{
+    font-size: larger;
+    background-color: darkgreen;
+
+}
+
+footer{
+    background-color: hsl(342, 37%, 26%);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
