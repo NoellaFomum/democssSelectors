@@ -1,37 +1,42 @@
-
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: whitesmoke;
-    color: blue;
+    color: black;
 }
 
-img{
+main{
+    background-image: url(https://media.gettyimages.com/id/150179791/photo/india-monsoon-landscape.jpg?s=612x612&w=0&k=20&c=UR7ql_XvZzpqCOhUrgkvNbGyVfru9zp_aZXJue7bTh8=);
+    background-size: cover;
+    border-radius: 5px;
+}
+img {
     width: 100px;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-#link-image{
+#link-image {
     width: 400px;
 }
 
-#my-pic{
+#my-pic {
     width: 30px;
 }
+
 header {
     background-color: blueviolet;
     color: white;
 }
 
-header{
+header {
     background-color: #05204b;
     color: white;
     margin: 0;
@@ -39,7 +44,8 @@ header{
     border-bottom-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-a{
+
+a {
     color: blue;
     text-decoration: none;
     padding: 5px;
@@ -53,20 +59,20 @@ nav {
     height: 25px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     text-align: center;
     vertical-align: middle;
 }
 
-ul > li{
+ul>li {
     display: inline-block;
 }
 
-nav > ul> li >a {
-text-decoration: none;
-text-align: center;
-vertical-align: middle;
+nav>ul>li>a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .nav-link {
@@ -76,28 +82,36 @@ vertical-align: middle;
 }
 
 
-#home-link::first-letter{
+#home-link::first-letter {
     font-size: xx-large;
-    color: darkgoldenrod;
+    color: gold;
     font-weight: bolder;
     font-display: 50px;
 }
 
-p::after{
+h1::before {
     content: ">>>>";
     color: darkred;
 }
-nav ul li :hover{
+
+h1::after {
+    content: ">>>>>";
+    color: darkred;
+}
+
+nav ul li :hover {
     background-color: darkgoldenrod;
 }
-#link-image:active{
+
+#link-image:active {
     content: url("../img/link_transp.png")
 }
-nav ul li :focus{
+
+nav ul li :focus {
     background-color: chartreuse;
 }
 
-nav li{
+nav li {
     background-color: cornflowerblue;
     display: inline-block;
     width: 250px;
@@ -105,14 +119,16 @@ nav li{
     border-radius: 8px;
     height: 25px;
 }
+
 nav a {
-    color:aqua ;
+    color: aqua;
     font-size: larger;
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 10px;
 }
-aside li{
+
+aside li {
     display: inline-block;
     width: 200px;
     text-align: center;
@@ -120,20 +136,19 @@ aside li{
     height: 20px;
     text-transform: uppercase;
     padding: 5px;
-} 
-aside ul li:focus{
-background-color: dodgerblue;
 }
-.news-page{
-    color:purple;
+
+.news-page {
+    color: whitesmoke;
 }
-.news-page:hover{
+
+.news-page:hover {
     font-size: larger;
-    background-color: darkgreen;
+    background-color: orangered;
 
 }
 
-footer{
+footer {
     background-color: hsl(342, 37%, 26%);
     padding: 10px;
     color: white;
