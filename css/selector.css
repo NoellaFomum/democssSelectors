@@ -5,6 +5,7 @@
 body {
     background-color: whitesmoke;
     color: black;
+    cursor: pointer;
 }
 
 main{
@@ -153,4 +154,16 @@ footer {
     padding: 10px;
     color: white;
     text-align: center;
+}
+#our-story{
+    color: crimson;
+}
+#about-us{
+    color: darkmagenta;
+}
+h3~p{
+    color: orangered;
+}
+aside>h3{
+    color: goldenrod
 }
